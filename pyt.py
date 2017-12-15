@@ -67,6 +67,7 @@ for j in range(len(keys)):
 		
 		name= st.split(" ")[0]	
 		print name
-		wrtn.write(dict_word[i])  #names in a file being stored 
+		wrtn.write(name)  #names in a file being stored 
 		wrtn.write('\n')
 wrt.close()
+wrtn.close()
